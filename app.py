@@ -8,7 +8,7 @@ import os
 st.title("Canada Work Permits Forecast")
 
 # Load combined forecast
-forecast_file = "province_forecasts_combined.csv"
+forecast_file = "forecast.csv"
 forecast = pd.read_csv(forecast_file)
 
 # Select province
