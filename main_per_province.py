@@ -1,5 +1,3 @@
-# main_per_province.py
-
 import pandas as pd
 from prophet import Prophet
 import matplotlib.pyplot as plt

@@ -1,5 +1,3 @@
-# main.py
-
 import pandas as pd
 from prophet import Prophet
 import matplotlib.pyplot as plt
@@ -40,7 +38,7 @@ model = Prophet(yearly_seasonality=True, weekly_seasonality=False, daily_seasona
 model.fit(data)
 
 
-# Step 7: Forecast next 12 months
+# Step 7: Forecast next 36 months
 
 future = model.make_future_dataframe(periods=36, freq='M')
 forecast = model.predict(future)
